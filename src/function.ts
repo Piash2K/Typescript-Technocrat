@@ -17,9 +17,15 @@ const poorUser = {
   balance: 0,
   addBalance(value: number): number {
     const totalBalance = this.balance + value;
-    console.log(totalBalance)
+    console.log(totalBalance);
     return totalBalance;
   },
 };
 
-poorUser.addBalance(10000)
+poorUser.addBalance(10000);
+
+//callback function
+
+const arr: number[] = [1, 4, 6];
+const squaredArr = arr.map((element: number): number => element * element);
+console.log(squaredArr);
