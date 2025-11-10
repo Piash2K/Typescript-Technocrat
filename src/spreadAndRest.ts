@@ -9,4 +9,14 @@ const collegeFriends: string[] = ["Mr. Smart", "Mr. Very Very Smart"];
 
 friends.push(...schoolFriends)
 friends.push(...collegeFriends)
-console.log(friends)
+// console.log(friends)
+
+
+const user = {name: "Piash", phoneNo: "01700000"}
+
+const otherInfo = {
+    hobby: "outing",
+    favouriteColor: "Black"
+}
+const userInfo = {...user,...otherInfo}
+console.log(userInfo)
