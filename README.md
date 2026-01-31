@@ -1,5 +1,3 @@
-
-
 ## 🧠 Typescript Technocrat
 A clean, scalable, and well-structured TypeScript project** built to empower developers with strong typing, modular architecture, and modern development workflows.
 
