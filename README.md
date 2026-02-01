@@ -144,4 +144,3 @@ Thanks to all the open-source libraries and communities that make TypeScript dev
 * VS Code — Editor of choice for TS developers
 
 ---
-
